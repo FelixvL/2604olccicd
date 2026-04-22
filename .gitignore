@@ -1,0 +1,87 @@
+# Build resultaten
+
+bin/**
+obj/**
+out/**
+
+# User-specifieke bestanden
+
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio / VS Code
+
+.vs/
+.vscode/
+*.code-workspace
+
+# Rider / JetBrains
+
+.idea/
+
+# Logs
+
+*.log
+
+# OS bestanden
+
+.DS_Store
+Thumbs.db
+
+# .NET Core
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+
+ScaffoldingReadMe.txt
+
+# NPM / frontend (indien aanwezig)
+
+node_modules/
+wwwroot/lib/
+
+# Publish output
+
+publish/
+*.pubxml
+*.publishproj
+
+# Azure / deployment
+
+*.azurePubxml
+
+# Secrets (belangrijk!)
+
+appsettings.Development.json
+secrets.json
+
+# Entity Framework
+
+Migrations/*/*.Designer.cs
+Migrations/*/*.resx
+
+# Test resultaten
+
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+
+*.nupkg
+.nuget/packages/
+
+# Dotnet CLI
+
+.dotnet/

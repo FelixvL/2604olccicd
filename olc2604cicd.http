@@ -1,0 +1,6 @@
+@olc2604cicd_HostAddress = http://localhost:5190
+
+GET {{olc2604cicd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
